@@ -1,0 +1,16 @@
+.special-bg-color{
+    background-color: cadetblue;
+}
+.special-text-color{
+    color:#ffffff;
+}
+.special-category img{
+    width: 100px;
+}
+.special-btn{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
