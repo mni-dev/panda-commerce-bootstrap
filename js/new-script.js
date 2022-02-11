@@ -30,13 +30,12 @@ document.getElementById('email-id').addEventListener('change', function (event) 
     const submitBtn = document.getElementById('btn-disabled');
     if (event.target.value == 'email') {
         console.log(event.target.value)
-        submitBtn.removeAttribute('disabled', true);
-        // submitBtn.setAttribute("class", "demoClass");
-        console.log('i love')
+        submitBtn.removeAttribute('disabled');
+        // console.log('i love')
     }
     else {
         submitBtn.setAttribute('disabled', true);
-        console.log('oops')
+        // console.log('oops')
     }
 })
 
